@@ -24,39 +24,41 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
             Nisi eum animi impedit magnam unde voluptates nostrum iste 
             consequatur dolorum explicabo beatae earum, adipisci dolor 
-            laudantium consectetur ex eligendi, qui ipsa!</p>
-            <div>
-                <button id="primerBotón">
-                    Quiero ser orador
-                </button>
-                <button id="segundoBotón">
-                    Comprar tickets
-                </button>
-            </div>
+            laudantium consectetur ex eligendi, qui ipsa!</p><br>
+            <a href="#convierteteEnOrador">Quiero ser orador</a>
+            <a href="./pages/comprar_tickets.html">Comprar tickets</a>
         </div>
     </header>
 
-    <section class="conocerOradores">
-        <div>
-            <h5>CONOCE A LOS</h5>
-            <h2>ORADORES</h2>
-        </div>
-        <div class="orador">
-            <img src="#" alt="Steve Jobs">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Repudiandae, eius consequatur. Obcaecati sed dolorem eum.</p>
-        </div>
-        <div class="orador">
-            <img src="#" alt="Bill Gates">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Repudiandae, eius consequatur. Obcaecati sed dolorem eum.</p>
-        </div>
-        <div class="orador">
-            <img src="#" alt="Ada Lovelace">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Repudiandae, eius consequatur. Obcaecati sed dolorem eum.</p>
-        </div>
-    </section>
+    <main>
+        <section class="conocerOradores">
+            <div>
+                <h2><span>CONOCE A LOS</span> <br> ORADORES</h2>
+            </div>
+            <div class="orador">
+                <img src="#" alt="Steve Jobs">
+                <h4>Javascript</h4>
+                <h4>React</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Repudiandae, eius consequatur. Obcaecati sed dolorem eum.</p>
+            </div>
+            <div class="orador">
+                <img src="#" alt="Bill Gates">
+                <h4>Javascript</h4>
+                <h4>React</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Repudiandae, eius consequatur. Obcaecati sed dolorem eum.</p>
+            </div>
+            <div class="orador">
+                <img src="#" alt="Ada Lovelace">
+                <h4>Negocios</h4>
+                <h4>Startups</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Repudiandae, eius consequatur. Obcaecati sed dolorem eum.</p>
+            </div>
+        </section>
+
+    </main>
 
     <section id="buenosAiresOctubre">
         <div>
@@ -72,20 +74,19 @@
                 de Honolulu han formado una ciudad-condado consolidada que
                 cubre toda la ciudad (aproximadamente 600 km**2 de superficie).
             </p>
-            <button>Conocé más</button>
+            <a href="">Conocé Más</a>
         </div>
     </section>
 
     <section id="sectionFormSuscripción">
         <div>
-            <h5>CÓNVIÉRTETE EN UN</h5>
-            <h2>ORADOR</h2>
+            <h2><span>CONVIÉRTETE EN </span> <br> ORADOR</h2>
             <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
         </div>
         <form action="POST">
-            <input type="text" placeholder="Nombre">
-            <input type="text" placeholder="Apellido"><br>
-            <textarea name="charla" id="charla" cols="30" rows="10" placeholder="Sobre qué quieres hablar?"></textarea>
+            <input type="text" placeholder="Nombre" required>
+            <input type="text" placeholder="Apellido" required><br>
+            <textarea name="" id="" cols="44" rows="6" placeholder="Sobre qué quieres hablar?" required></textarea>
             <p>Recuerda incluir un título para tu charla</p>
             <button type="submit">Enviar</button>
         </form>
