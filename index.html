@@ -13,7 +13,7 @@
         <!-- LOGO DEL NAVBAR Y SU TÍTULO -->
         <div>
             <a href="#"><img src="img/codoacodo.png" alt="Logo de Codo a Codo" class="CodoaCodoLogo"></a>
-            <h2>Conf. Bs.As.</h2>
+            <h2 class="nombreConferencia">Conf. Bs.As.</h2>
         </div>
         
         <!-- ÍTEMS DEL NAVBAR -->
@@ -29,14 +29,14 @@
 
         <!-- IMAGEN PRINCIPAL DE LA PÁGINA CON SU DESCRIPCIÓN -->
         <div>
-            <img src="img/ba1.jpg" alt="imagen de edificio" width="100%">
-            <h2>Conf Bs As</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            <img src="img/ba1.jpg" alt="imagen de edificio" width="100%" class="imagenPrincipal">
+            <h2 class="títuloImagen">Conf Bs As</h2>
+            <p class="textoImagen">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
             Nisi eum animi impedit magnam unde voluptates nostrum iste 
             consequatur dolorum explicabo beatae earum, adipisci dolor 
             laudantium consectetur ex eligendi, qui ipsa!</p><br>
-            <a href="#convierteteEnOrador">Quiero ser orador</a>
-            <a href="./pages/comprar_tickets.html">Comprar tickets</a>
+            <a href="#convierteteEnOrador" class="botón uno">Quiero ser orador</a>
+            <a href="./pages/comprar_tickets.html" class="botón dos">Comprar tickets</a>
         </div>
     </header>
 
@@ -48,21 +48,21 @@
                 <h2><span>CONOCE A LOS</span> <br> ORADORES</h2>
             </div>
             <!-- DIV CON CADA UNO DE LOS ORADORES -->
-            <div class="orador">
+            <div class="orador uno">
                 <img src="img/steve.jpg" alt="Steve Jobs">
                 <h4>Javascript</h4>
                 <h4>React</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                     Repudiandae, eius consequatur. Obcaecati sed dolorem eum.</p>
             </div>
-            <div class="orador">
+            <div class="orador dos">
                 <img src="img/bill.jpg" alt="Bill Gates">
                 <h4>Javascript</h4>
                 <h4>React</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                     Repudiandae, eius consequatur. Obcaecati sed dolorem eum.</p>
             </div>
-            <div class="orador">
+            <div class="orador tres">
                 <img src="img/ada.jpeg" alt="Ada Lovelace">
                 <h4>Negocios</h4>
                 <h4>Startups</h4>
@@ -76,11 +76,11 @@
     <!-- SECTION IMAGEN DE HONOLULU -->
     <section id="buenosAiresOctubre">
         <div>
-            <img src="img/honolulu.jpg" alt="playas de honolulu" width="100%">
+            <img src="img/honolulu.jpg" alt="playas de honolulu" width="100%" class="imagenHonolulu">
         </div>
         <div> <!-- DESCRIPCIÓN DE BS AS - OCTUBRE -->
-            <h1>Bs As - Octubre</h1>
-            <p>Buenos Aires es la provincia y la localidad más grande del 
+            <h1 class="títuloHonolulu">Bs As - Octubre</h1>
+            <p class="descripciónHonolulu">Buenos Aires es la provincia y la localidad más grande del 
                 estado de Argentina. En los Estados Unidos, Honolulu es la
                 más sureña de entre las principales ciudades estadounidenses.
                 Aunque el nombre de Honolulu se refiere al área urbana en 
@@ -98,7 +98,7 @@
             <h2><span>CONVIÉRTETE EN </span> <br> ORADOR</h2>
             <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
         </div>
-        <form action="POST">
+        <form action="POST" >
             <input type="text" placeholder="Nombre" required>
             <input type="text" placeholder="Apellido" required><br>
             <textarea name="" id="" cols="44" rows="6" placeholder="Sobre qué quieres hablar?" required></textarea>
