@@ -4,10 +4,30 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+/* LOGO DE CODO A CODO EN EL NAVBAR*/
 .CodoaCodoLogo {
     position: absolute;
     width: 100px;
     margin: 0px 70px;
+}
+
+/* ÍTEMS DEL NAVBAR */
+nav {
+    display: block;
+    background-color: rgb(71, 71, 71);
+}
+
+.ítemsNavbar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+}
+
+.ítemsNavbar li a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: rgba(255, 255, 255, 0.514);
 }
 
 /* BOTONES DE LA IMAGEN PRINCIPAL */
