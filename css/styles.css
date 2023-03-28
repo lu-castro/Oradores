@@ -19,17 +19,25 @@ nav {
     height: 70px;
 }
 
-.ítemsNavbar {
+.ítemsNavbar { /* PADRE DE LOS ÍTEMS DE LISTA */
     list-style: none;
     display: flex;
     flex-direction: row;
     margin-left: 400px;
 }
 
-.ítemsNavbar li a{
+.ítemsNavbar li a{  /* ÍTEMS DEL NAVBAR (HIJO) */
     text-decoration: none;
     padding: 0px 10px;
     color: rgba(255, 255, 255, 0.514);
+}
+
+#primerÍtem {
+    color: white;
+}
+
+#últimoÍtem {
+    color: rgb(21, 141, 21);
 }
 
 /* BOTONES DE LA IMAGEN PRINCIPAL */
