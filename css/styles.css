@@ -2,16 +2,10 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    margin: 0 auto;
+    margin: 0%;
 }
 
-/* LOGO DE CODO A CODO EN EL NAVBAR*/
-.CodoaCodoLogo {
-    position: absolute;
-    width: 100px;
-    margin: 0px 70px;
-}
-
+/* NAVBAR */
 /* ÍTEMS DEL NAVBAR */
 nav {
     display: block;
@@ -19,6 +13,17 @@ nav {
     height: 70px;
 }
 
+
+.CodoaCodoLogo { /* LOGO DE CODO A CODO EN EL NAVBAR*/
+    width: 100px;
+}
+
+.nombreConferencia { /* TÍTULO DE LA PÁGINA CONFERENCIAS BUENOS AIRES */
+    color: white;
+    display: inline-block;
+}
+
+/* ÍTEMS DEL NAVBAR */
 .ítemsNavbar { /* PADRE DE LOS ÍTEMS DE LISTA */
     list-style: none;
     display: flex;
