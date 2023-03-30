@@ -11,17 +11,18 @@ nav {
 }
 
 .CodoaCodoLogo { /* logo del navbar */
-    width: 100px;
-    margin: 7px 70px; 
+    width: 115px;
+    margin: 8px 70px; 
 }
 
 #nombreConferencia { /* título de conferencia en el navbar */
-    margin: -50px 180px;
+    margin: -55px 190px;
+    font-size: medium;
     color: white;
 }
 
 .ítemsNavbar {  /* ítems del navbar */
-    margin-left: 400px;
+    margin: 25px 0px 0px 400px;
 }
 
 .ítemsNavbar li { 
@@ -40,7 +41,9 @@ nav {
     color: white;
 }
 
-#
+#últimoÍtem {
+    color: rgb(18, 145, 18);
+}
 
 
 
