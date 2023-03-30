@@ -7,13 +7,40 @@ body {
 
 nav {
     background-color: rgba(31, 31, 31, 0.863);
+    height: 80px;
+}
+
+.CodoaCodoLogo { /* logo del navbar */
+    width: 100px;
+    margin: 7px 70px; 
+}
+
+#nombreConferencia { /* título de conferencia en el navbar */
+    margin: -50px 180px;
     color: white;
 }
 
-.CodoaCodoLogo {
-    width: 100px;
+.ítemsNavbar {  /* ítems del navbar */
+    margin-left: 400px;
 }
 
+.ítemsNavbar li { 
+    list-style: none;
+    padding: 10px;
+    text-align: right;
+    display: inline-block;
+}
+
+.ítemsNavbar li a {
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+}
+
+#primerÍtem { /* primer ítem del navbar */
+    color: white;
+}
+
+#
 
 
 
