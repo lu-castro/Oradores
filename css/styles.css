@@ -5,9 +5,16 @@ body {
     margin: 0%;
 }
 
+nav {
+    background-color: rgba(31, 31, 31, 0.863);
+    color: white;
+}
+
 .CodoaCodoLogo {
     width: 100px;
 }
+
+
 
 
 /* BOTONES DE LA IMAGEN PRINCIPAL */
