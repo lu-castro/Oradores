@@ -5,45 +5,10 @@ body {
     margin: 0%;
 }
 
-/* NAVBAR */
-/* ÍTEMS DEL NAVBAR */
-nav {
-    display: block;
-    background-color: rgb(71, 71, 71);
-    height: 70px;
-}
-
-
-.CodoaCodoLogo { /* LOGO DE CODO A CODO EN EL NAVBAR*/
+.CodoaCodoLogo {
     width: 100px;
 }
 
-.nombreConferencia { /* TÍTULO DE LA PÁGINA CONFERENCIAS BUENOS AIRES */
-    color: white;
-    display: inline-block;
-}
-
-/* ÍTEMS DEL NAVBAR */
-.ítemsNavbar { /* PADRE DE LOS ÍTEMS DE LISTA */
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    margin-left: 400px;
-}
-
-.ítemsNavbar li a{  /* ÍTEMS DEL NAVBAR (HIJO) */
-    text-decoration: none;
-    padding: 0px 10px;
-    color: rgba(255, 255, 255, 0.514);
-}
-
-#primerÍtem {
-    color: white;
-}
-
-#últimoÍtem {
-    color: rgb(21, 141, 21);
-}
 
 /* BOTONES DE LA IMAGEN PRINCIPAL */
 .botón {
