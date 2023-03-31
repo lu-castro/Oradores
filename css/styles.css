@@ -61,6 +61,15 @@ nav {
     text-decoration: none;
 }
 
+#conocerOradores div {
+    width: 300px;
+    margin: 10px 10px ;
+}
+
 #conocerOradores div h2 span {
     font-size: small;
+}
+
+#conocerOradores img {
+    width: 300px;
 }
