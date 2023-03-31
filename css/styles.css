@@ -61,3 +61,6 @@ nav {
     text-decoration: none;
 }
 
+#conocerOradores div h2 span {
+    font-size: small;
+}
