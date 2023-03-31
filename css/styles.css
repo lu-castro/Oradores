@@ -45,8 +45,7 @@ nav {
     color: rgb(18, 145, 18);
 }
 
-/* IMAGEN PRINCIPAL */
-.imagenPrincipal {
+.imagenPrincipal { /* imagen principal de la página */
     filter: brightness(50%);
 }
 
@@ -61,3 +60,4 @@ nav {
     border: 2px groove rgba(0, 0, 0, 0.23);
     text-decoration: none;
 }
+
