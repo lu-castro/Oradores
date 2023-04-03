@@ -2,7 +2,6 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    margin: 0%;
 }
 
 nav {
@@ -61,15 +60,14 @@ nav {
     text-decoration: none;
 }
 
-#conocerOradores div {
-    width: 300px;
-    margin: 10px 10px ;
+/* CAJAS DE LOS ORADORES */
+.orador {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
 }
 
-#conocerOradores div h2 span {
-    font-size: small;
-}
-
-#conocerOradores img {
-    width: 300px;
+.orador img {
+    width: 75%;
 }
