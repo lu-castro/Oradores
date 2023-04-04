@@ -64,19 +64,40 @@ nav {
 /* CAJAS DE LOS ORADORES */
 #conocerOradores {
     margin-left: 15%;
+    margin-bottom: 2%;
 }
 
-.orador {
+.orador {  /* divisores de cada uno de los oradores */
     display: inline-block;
     width: 25%;
-    text-align: center;
     margin: 10px 10px;
     border: 1px solid rgb(190, 190, 190);
 }
 
-.orador h4 {
+/* TÍTULO DEBAJO DE LAS IMÁGENES DE LAS CAJAS DE ORADORES */
+.orador h4 { /* propiedad general de los títulos debajo de las imágenes */
     display: inline;
-    
+    font-size: small;
+    border-radius: 5px;
+}
+
+.cajaJavascript {
+    background-color: yellow;
+}
+
+.cajaReact {
+    background-color: rgb(38, 201, 255);
+    color: white;
+}
+
+.cajaNegocios {
+    background-color: gray;
+    color: white;
+}
+
+.cajaStartups {
+    background-color: red;
+    color: white;
 }
 
 .orador img {
