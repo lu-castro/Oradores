@@ -46,7 +46,7 @@ nav {
 }
 
 /* IMAGEN PRINCIPAL Y TEXTO */
-.divisorImagenTexto {
+.divisorImagenTexto { /* divisor de la imagen y el div con el texto principal */
     position: relative;
     display: inline-block;
     text-align: right;
@@ -54,6 +54,15 @@ nav {
 
 .imagenPrincipal { /* imagen principal de la página */
     filter: brightness(50%);
+}
+
+.textoImagenPrincipal { /* texto principal y botones */
+    color: white;
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-25%, -50%);
 }
 
 
