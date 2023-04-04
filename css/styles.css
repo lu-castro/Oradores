@@ -45,6 +45,13 @@ nav {
     color: rgb(18, 145, 18);
 }
 
+/* IMAGEN PRINCIPAL Y TEXTO */
+.divisorImagenTexto {
+    position: relative;
+    display: inline-block;
+    text-align: right;
+}
+
 .imagenPrincipal { /* imagen principal de la página */
     filter: brightness(50%);
 }
