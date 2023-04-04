@@ -32,7 +32,7 @@ nav {
     display: inline-block;
 }
 
-.ítemsNavbar li a {
+.ítemsNavbar li a {  /* cada uno de los ítems del navbar */
     text-decoration: none;
     color: rgb(153, 153, 153);
 }
@@ -104,7 +104,7 @@ nav {
 .orador {  /* divisores de cada uno de los oradores */
     display: inline-block;
     width: 30%;
-    border: 1px solid rgb(190, 190, 190);
+    border: 1px solid rgb(221, 221, 221);
 }
 
 .orador img { /* imágenes de las cajas */
@@ -114,7 +114,7 @@ nav {
 }
 
 /* TÍTULO DEBAJO DE LAS IMÁGENES DE LAS CAJAS DE ORADORES */
-.orador h4 { /* propiedad general de los títulos debajo de las imágenes */
+.orador h4 { /* propiedad general de los h4 debajo de las imágenes */
     display: inline;
     font-size: small;
     border-radius: 5px;
@@ -144,10 +144,11 @@ nav {
 
 .nombreCaja { /* nombre del orador dentro de las cajas */
     margin-left: 20px;
+    margin-bottom: 25px;
 }
 
 .orador p { /* texto de las cajas de los oradores*/
     font-size: small;
-    line-height: 1.5em;
+    line-height: 2em;
     margin: 0 20px 20px 20px;
 }
