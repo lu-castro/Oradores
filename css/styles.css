@@ -62,15 +62,19 @@ nav {
 }
 
 /* CAJAS DE LOS ORADORES */
+#conocerOradores {
+    margin-left: 15%;
+}
+
 .orador {
     display: inline-block;
-    width: 30%;
+    width: 25%;
     text-align: center;
-    margin: 10px;
+    margin: 10px 10px;
     border: 1px solid rgb(129, 129, 129);
 }
 
 .orador img {
-    width: 75%;
+    width: 100%;
     object-fit: cover;
 }
