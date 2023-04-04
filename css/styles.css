@@ -63,14 +63,12 @@ nav {
 
 /* CAJAS DE LOS ORADORES */
 #conocerOradores {
-    margin-left: 15%;
-    margin-bottom: 2%;
+    margin: 0 20px 20px 130px;
 }
 
 .orador {  /* divisores de cada uno de los oradores */
     display: inline-block;
-    width: 25%;
-    margin: 10px 10px;
+    width: 30%;
     border: 1px solid rgb(190, 190, 190);
 }
 
@@ -90,6 +88,7 @@ nav {
 
 .cajaJavascript {
     background-color: yellow;
+    margin-left: 20px;
 }
 
 .cajaReact {
@@ -100,9 +99,20 @@ nav {
 .cajaNegocios {
     background-color: gray;
     color: white;
+    margin-left: 20px;
 }
 
 .cajaStartups {
     background-color: red;
     color: white;
+}
+
+.nombreCaja { /* nombre del orador dentro de las cajas */
+    margin-left: 20px;
+}
+
+.orador p { /* texto de las cajas de los oradores*/
+    font-size: small;
+    line-height: 1.5em;
+    margin: 0 20px 20px 20px;
 }
