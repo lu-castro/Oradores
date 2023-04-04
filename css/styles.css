@@ -53,7 +53,9 @@ nav {
 }
 
 .imagenPrincipal { /* imagen principal de la página */
+    width: 100%;
     filter: brightness(50%);
+    object-fit: none;
 }
 
 .textoImagenPrincipal { /* texto principal y botones */
@@ -62,7 +64,15 @@ nav {
     position: absolute;
     top: 40%;
     left: 60%;
-    transform: translate(-25%, -50%);
+    transform: translate(-26%, -50%);
+}
+
+.títuloImagen {  /* título de el texto principal */
+    font-size: xx-large;
+}
+
+.textoImagen {
+    line-height: 1.5em;
 }
 
 
@@ -73,8 +83,9 @@ nav {
     width: 50px;
     height: 100px;
     border-radius: 12px;
-    border: 2px groove rgba(0, 0, 0, 0.23);
+    border: 1px groove white;
     text-decoration: none;
+    color: white;
 }
 
 /* CAJAS DE LOS ORADORES */
