@@ -17,7 +17,7 @@ nav {
 
 #nombreConferencia { /* título de conferencia en el navbar */
     margin: -55px 190px;
-    font-size: medium;
+    font-size: large;
     color: white;
 }
 
@@ -34,7 +34,7 @@ nav {
 
 .ítemsNavbar li a {
     text-decoration: none;
-    color: rgb(117, 117, 117);
+    color: rgb(153, 153, 153);
 }
 
 #primerÍtem { /* primer ítem del navbar */
@@ -71,21 +71,29 @@ nav {
     font-size: xx-large;
 }
 
-.textoImagen {
+.textoImagen { /* texto principal sobre la imagen principal */ 
     line-height: 1.5em;
 }
-
 
 /* BOTONES DE LA IMAGEN PRINCIPAL */
 .botón {
     margin: 5px;
-    padding: 10px;
     width: 50px;
     height: 100px;
     border-radius: 12px;
-    border: 1px groove white;
     text-decoration: none;
     color: white;
+}
+
+#botónUno {
+    border:1px solid white;
+    padding: 10px; 
+}
+
+#botónDos { 
+    background-color: rgb(18, 145, 18);
+    border: none;
+    padding: 11px;
 }
 
 /* CAJAS DE LOS ORADORES */
