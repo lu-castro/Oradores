@@ -97,13 +97,24 @@ nav {
 }
 
 /* CAJAS DE LOS ORADORES */
-#conocerOradores {
-    margin: 0 20px 20px 130px;
+#conocerOradores { /* section de las cajas de oradores y el título */
+    margin-left: 10%;
+}
+
+.títuloConocerOradores { /* título CONOCE A LOS ORADORES */
+    display: block;
+    text-align: center;
+}
+
+.títuloConocerOradores h2 span {
+    font-size: small;
 }
 
 .orador {  /* divisores de cada uno de los oradores */
     display: inline-block;
-    width: 30%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    width: 26%;
     border: 1px solid rgb(221, 221, 221);
 }
 
@@ -152,3 +163,9 @@ nav {
     line-height: 2em;
     margin: 0 20px 20px 20px;
 }
+
+/* IMAGEN DE HONOLULU */
+.imagenHonolulu {
+    width: 50%;
+}
+
