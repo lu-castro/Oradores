@@ -102,7 +102,6 @@ nav {
 }
 
 .títuloConocerOradores { /* título CONOCE A LOS ORADORES */
-    display: block;
     text-align: center;
 }
 
@@ -167,5 +166,16 @@ nav {
 /* IMAGEN DE HONOLULU */
 .imagenHonolulu {
     width: 50%;
+    height: 430px;
+    display: inline-block;
+    object-fit: cover;
 }
 
+.textoImagenHonolulu {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    float: right;
+    width: 50%;
+    height: 430px;
+    vertical-align: baseline;
+}
