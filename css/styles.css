@@ -100,7 +100,7 @@ nav {
 
 /* CAJAS DE LOS ORADORES */
 #conocerOradores { /* section de las cajas de oradores y el título */
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .títuloConocerOradores { /* título CONOCE A LOS ORADORES */
@@ -165,19 +165,28 @@ nav {
     margin: 0 20px 20px 20px;
 }
 
+
 /* IMAGEN DE HONOLULU */
 .imagenHonolulu {
     width: 50%;
     height: 430px;
-    display: inline-block;
+    float: left;
     object-fit: cover;
 }
 
+/* TEXTO DE LA IMAGEN DE HONOLULU */
 .textoImagenHonolulu {
     background-color: rgb(59, 59, 59);
     color: white;
     float: right;
     width: 50%;
     height: 430px;
-    vertical-align: baseline;
+}
+
+.textoImagenHonolulu a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 5px;
 }
