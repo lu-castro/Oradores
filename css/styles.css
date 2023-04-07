@@ -99,10 +99,6 @@ nav {
 }
 
 /* CAJAS DE LOS ORADORES */
-.conocerOradores { /* section de las cajas de oradores y el título */
-    margin-left: 5%;
-}
-
 .títuloConocerOradores { /* título CONOCE A LOS ORADORES */
     text-align: center;
 }
@@ -117,6 +113,10 @@ nav {
     margin-bottom: 2%;
     width: 26%;
     border: 1px solid rgb(221, 221, 221);
+}
+
+#oradorUno { /* primera caja de los oradores - Steve Jobs */
+    margin-left: 120px;
 }
 
 .orador img { /* imágenes de las cajas */
