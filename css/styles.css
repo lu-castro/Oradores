@@ -8,22 +8,23 @@ body {
 
 nav {
     background-color: rgba(31, 31, 31, 0.863);
-    height: 90px;
+    height: 80px;
 }
 
 .CodoaCodoLogo { /* logo del navbar */
-    width: 115px;
-    margin: 8px 70px; 
+    width: 110px;
+    margin: 5px 70px; 
 }
 
 #nombreConferencia { /* título de conferencia en el navbar */
-    margin: -55px 190px;
-    font-size: large;
+    margin: -60px 190px;
+    font-size: 3vh;
     color: white;
 }
 
 .ítemsNavbar {  /* ítems del navbar */
-    margin: 25px 0px 0px 400px;
+    font-size: 3vh;
+    margin: 35px 0px 0px 400px;
 }
 
 .ítemsNavbar li { /* ítems del navbar */
