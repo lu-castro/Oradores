@@ -176,7 +176,8 @@ nav {
 
 /* TEXTO DE HONOLULU Y TEXTO DE BS AS - OCTUBRE */
 .buenosAiresOctubre {
-    border: 1px solid black;
+    border-top: 1px solid black;
+    padding: 1px;
 }
 
 /* TEXTO DE LA IMAGEN DE HONOLULU */
@@ -188,10 +189,16 @@ nav {
     height: 430px;
 }
 
-.textoImagenHonolulu a {
+#títuloHonolulu, #descripciónHonolulu { /* título y descripción de Bs As - Octubre */
+    margin: 20px 10px 20px 15px;
+}
+
+
+.textoImagenHonolulu a { /* BOTÓN de Conocé Más de Bs As - Octubre */
     text-decoration: none;
     color: white;
     border: 1px solid white;
     padding: 7px;
     border-radius: 5px;
+    margin-left: 15px;
 }
