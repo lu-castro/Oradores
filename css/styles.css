@@ -99,7 +99,7 @@ nav {
 }
 
 /* CAJAS DE LOS ORADORES */
-#conocerOradores { /* section de las cajas de oradores y el título */
+.conocerOradores { /* section de las cajas de oradores y el título */
     margin-left: 5%;
 }
 
@@ -168,10 +168,15 @@ nav {
 
 /* IMAGEN DE HONOLULU */
 .imagenHonolulu {
-    width: 50%;
+    width: 49.9%;
     height: 430px;
     float: left;
     object-fit: cover;
+}
+
+/* TEXTO DE HONOLULU Y TEXTO DE BS AS - OCTUBRE */
+.buenosAiresOctubre {
+    border: 1px solid black;
 }
 
 /* TEXTO DE LA IMAGEN DE HONOLULU */
