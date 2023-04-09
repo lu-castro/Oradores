@@ -209,7 +209,8 @@ nav {
 }
 
 #listadoFooter {
-    background-color: blue;
+    background: rgb(19,25,43);
+    background: linear-gradient(90deg, rgba(19,25,43,1) 0%, rgba(11,60,173,1) 100%);
     color: white;
     list-style: none;
     margin-bottom: 0%;
