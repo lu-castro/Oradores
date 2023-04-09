@@ -211,6 +211,21 @@ nav {
     text-align: center;
 }
 
+#inputNombre, #inputApellido { /* inputs de Nombre y Apellido de el formulario de suscripción */
+    width: 20%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+#inputApellido {
+    margin-left: 25px;
+}
+
+textarea {
+    width: 43%;
+    font-size: larger;
+}
+
 form button { /* botón de enviar de el formulario de suscripción */
     width: 45%;
     padding: 10px;
