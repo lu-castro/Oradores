@@ -208,3 +208,14 @@ nav {
     text-align: center;
 }
 
+#listadoFooter {
+    background-color: blue;
+    color: white;
+    list-style: none;
+    margin-bottom: 0%;
+}
+
+#listadoFooter li {
+    text-decoration: none;
+}
+
