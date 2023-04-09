@@ -119,6 +119,10 @@ nav {
     border: 1px solid rgb(221, 221, 221);
 }
 
+.imagenOrador {
+    height: 400px;
+}
+
 #oradorUno { /* primera caja de los oradores - Steve Jobs */
     margin-left: 120px;
 }
@@ -211,10 +215,16 @@ nav {
     text-align: center;
 }
 
+form {
+    align-items: left;
+}
+
 #inputNombre, #inputApellido { /* inputs de Nombre y Apellido de el formulario de suscripción */
     width: 20%;
-    height: 20px;
+    padding: 5px;
     margin-bottom: 10px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 3px;
 }
 
 #inputApellido {
@@ -224,6 +234,13 @@ nav {
 textarea {
     width: 43%;
     font-size: larger;
+    border:1px solid rgb(168, 168, 168);
+    border-radius: 3px;
+}
+
+.textoFormDebajo { /* texto entre el formulario de suscripción y el botón de enviar*/
+    font-size: small;
+    color: rgb(104, 102, 102);
 }
 
 form button { /* botón de enviar de el formulario de suscripción */
