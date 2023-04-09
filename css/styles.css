@@ -211,7 +211,22 @@ nav {
     text-align: center;
 }
 
-#listadoFooter {
+form button {
+    width: 45%;
+    padding: 10px;
+    background-color: rgb(126, 202, 55);
+    border: none;
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+/* FOOTER ÍTEMS */
+.ítemsFooter { /* clase de el divisor del footer */
+    margin-top: 10px;
+}
+
+#listadoFooter { /* lista de el footer (ul) */
     background: rgb(19,25,43);
     background: linear-gradient(90deg, rgba(19,25,43,1) 0%, rgba(11,60,173,1) 100%);
     list-style: none;
@@ -220,6 +235,6 @@ nav {
 
 #listadoFooter li {
     display: inline-block;
-    padding: 20px 20px;
+    padding: 20px;
 }
 
