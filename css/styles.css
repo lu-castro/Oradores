@@ -174,18 +174,21 @@ nav {
 }
 
 
-/* IMAGEN DE HONOLULU */
-.imagenHonolulu {
-    width: 49.9%;
-    height: 430px;
-    float: left;
-    object-fit: cover;
-}
-
 /* TEXTO DE HONOLULU Y TEXTO DE BS AS - OCTUBRE */
 .buenosAiresOctubre {
     border-top: 1px solid black;
     padding: 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+}
+
+/* IMAGEN DE HONOLULU */
+.imagenHonolulu {
+    width: 50%;
+    height: 430px;
+    float: left;
+    object-fit: cover;
 }
 
 /* TEXTO DE LA IMAGEN DE HONOLULU */
@@ -255,18 +258,28 @@ form button { /* botón de enviar de el formulario de suscripción */
 
 /* FOOTER ÍTEMS */
 .ítemsFooter { /* clase de el divisor del footer */
-    margin-top: 10px;
+    /* margin-top: 10px; */    
+    /* display: inline-block; */
+    /* padding: 20px;
+    width: 100%; */
+    background: rgb(19,25,43);
+    background: linear-gradient(90deg, rgba(19,25,43,1) 0%, rgba(11,60,173,1) 100%);
 }
 
 #listadoFooter { /* lista de el footer (ul) */
-    background: rgb(19,25,43);
-    background: linear-gradient(90deg, rgba(19,25,43,1) 0%, rgba(11,60,173,1) 100%);
     list-style: none;
     margin-bottom: 0%;
+    margin-left: 7%;
+    /* width: 100%; */
+    height: 20vh;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #listadoFooter li {
-    display: inline-block;
-    padding: 20px;
+    /* display: inline-block;
+    padding: 20px; */
 }
 
