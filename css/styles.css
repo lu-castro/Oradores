@@ -218,6 +218,19 @@ nav {
     text-align: center;
 }
 
+#conviérteteEnOrador {
+    font-size: larger;
+}
+
+#conviérteteEnOrador h2 span { /* CONVIÉRTETE SPAN */
+    font-size: small;
+}
+
+#conviérteteEnOrador p { /* TEXTO SOBRE EL FORMULARIO DE SUSCRIPCIÓN */
+    font-size: medium;
+}
+
+/* FORMULARIO */
 form {
     align-items: left;
 }
@@ -244,6 +257,7 @@ textarea {
 .textoFormDebajo { /* texto entre el formulario de suscripción y el botón de enviar*/
     font-size: small;
     color: rgb(104, 102, 102);
+    margin: auto 0px 20px -350px;
 }
 
 form button { /* botón de enviar de el formulario de suscripción */
@@ -258,10 +272,6 @@ form button { /* botón de enviar de el formulario de suscripción */
 
 /* FOOTER ÍTEMS */
 .ítemsFooter { /* clase de el divisor del footer */
-    /* margin-top: 10px; */    
-    /* display: inline-block; */
-    /* padding: 20px;
-    width: 100%; */
     background: rgb(19,25,43);
     background: linear-gradient(90deg, rgba(19,25,43,1) 0%, rgba(11,60,173,1) 100%);
 }
@@ -270,16 +280,10 @@ form button { /* botón de enviar de el formulario de suscripción */
     list-style: none;
     margin-bottom: 0%;
     margin-left: 7%;
-    /* width: 100%; */
     height: 20vh;
     display: flex;
     width: 80%;
     align-items: center;
     justify-content: space-between;
-}
-
-#listadoFooter li {
-    /* display: inline-block;
-    padding: 20px; */
 }
 
