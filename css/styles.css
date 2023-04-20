@@ -11,20 +11,22 @@ a {
     color: white;
 }
 
+/* NAVBAR */
 .CodoaCodoLogo { /* logo del navbar */
-    width: 110px;
-    margin: 5px 70px; 
+    width: 110px;   
 }
 
 #nombreConferencia { /* título de conferencia en el navbar */
-    margin: -60px 190px;
+    display: inline;
+    margin-left: -3%;
     font-size: 3vh;
     color: white;
 }
 
 .ítemsNavbar {  /* ítems del navbar */
     font-size: 3vh;
-    margin: 35px 0px 0px 400px;
+    float: right;
+    margin: -4% 5% 1%;
 }
 
 .ítemsNavbar li { /* ítems del navbar */
@@ -82,19 +84,6 @@ a {
     margin: 5px;
     width: 50px;
     height: 100px;
-    border-radius: 12px;
-    text-decoration: none;
-}
-
-#botónUno {
-    border:1px solid white;
-    padding: 10px; 
-}
-
-#botónDos { 
-    background-color: rgb(18, 145, 18);
-    border: none;
-    padding: 11px;
 }
 
 /* CAJAS DE LOS ORADORES */
