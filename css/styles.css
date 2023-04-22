@@ -307,10 +307,14 @@ form button { /* botón de enviar de el formulario de suscripción */
         margin: 20px;
     }
     /* CARDS DE LOS ORADORES */
+    .títuloConocerOradores h2, span {
+        font-size: 5vh;
+    }
     .divisorCajasOradores {
         display: flex;
         flex-direction: row;
         width: 150;
+        margin-left: -100px;
     }
     .orador h4 {
         display: none !important;
@@ -321,6 +325,19 @@ form button { /* botón de enviar de el formulario de suscripción */
     }
     .orador p {
         text-align: center;
+    }
+    /* FORMULARIO */
+    #conviérteteEnOrador h2, span {
+        font-size: 7vh;
+    }
+    #conviérteteEnOrador p {
+        font-size: small;
+    }
+    #inputNombre, #inputApellido {
+        display: flex;
+        width: 50%;
+        padding: 5px;
+        margin: auto auto 10px;
     }
     /* FOOTER */
     #listadoFooter {
