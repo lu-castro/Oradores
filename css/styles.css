@@ -306,6 +306,13 @@ form button { /* botón de enviar de el formulario de suscripción */
         display: flex;
         margin: 20px;
     }
+    /* CARDS DE LOS ORADORES */
+    .orador {
+        font-size: smaller;
+        line-height: 2em;
+        margin: 0 5px 5px 5px;
+        object-fit: cover;
+    }
     /* FOOTER */
     #listadoFooter {
         font-size: 1em;
