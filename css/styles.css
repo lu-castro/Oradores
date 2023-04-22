@@ -30,6 +30,8 @@ nav {
     display: inline;
     font-size: 3vh;
     color: white;
+    margin-top: 20px;
+    position: absolute;
 }
 
 .ítemsNavbar {  /* ítems del navbar */
@@ -286,12 +288,31 @@ form button { /* botón de enviar de el formulario de suscripción */
 
 #listadoFooter { /* lista de el footer (ul) */
     list-style: none;
-    margin-bottom: 0%;
-    margin-left: 7%;
+    margin: 10px auto auto;
+    align-items: center;
     height: 15vh;
     display: flex;
-    width: 80%;
-    align-items: center;
+    width: 90%;
     justify-content: space-between;
 }
 
+/* medida de pantalla de celular con 730px de ancho */
+@media screen and (max-width: 730px) {
+    /* IMAGEN CON TEXTO PRINCIPAL */
+    .imagenPrincipal {
+        height: 110vh;
+    }
+    .botónUno, .botónDos {
+        display: flex;
+        margin: 20px;
+    }
+    /* FOOTER */
+    #listadoFooter {
+        font-size: 1em;
+        display: inline-block;
+        text-align: center;
+    }
+    #listadoFooter li {
+        padding: 10px;
+    }
+}
