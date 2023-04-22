@@ -299,9 +299,36 @@ form button { /* botón de enviar de el formulario de suscripción */
 
 /* medida de pantalla de celular con 730px de ancho */
 @media screen and (max-width: 730px) {
+    /* NAVBAR */
+    nav {
+        height: 15vh;
+    }
+    .CodoaCodoLogo {
+        width: 80px;
+        margin-bottom: -50px;
+        margin-left: -30px;
+    }
+    #nombreConferencia {
+        display: none;
+    }
+    .ítemsNavbar {
+        display: flex;
+        position: absolute;
+        font-size: 15px;
+        margin: -2px 0 0 20px;
+    }
+    #botónCinco {
+        display: none;
+    }
     /* IMAGEN CON TEXTO PRINCIPAL */
+    .divisorImagenTexto {
+        float: center;
+    }
     .imagenPrincipal {
         height: 110vh;
+    }
+    .textoImagenPrincipal {
+        position: absolute;
     }
     .botónUno, .botónDos {
         display: flex;
