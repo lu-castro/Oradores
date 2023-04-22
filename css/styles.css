@@ -296,6 +296,7 @@ form button { /* botón de enviar de el formulario de suscripción */
     justify-content: space-between;
 }
 
+
 /* medida de pantalla de celular con 730px de ancho */
 @media screen and (max-width: 730px) {
     /* IMAGEN CON TEXTO PRINCIPAL */
@@ -353,6 +354,7 @@ form button { /* botón de enviar de el formulario de suscripción */
         font-size: 1em;
         display: inline-block;
         text-align: center;
+        height: fit-content;
     }
     #listadoFooter li {
         padding: 10px;
