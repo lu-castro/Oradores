@@ -339,6 +339,15 @@ form button { /* botón de enviar de el formulario de suscripción */
         padding: 5px;
         margin: auto auto 10px;
     }
+    textarea {
+        width: 70%;
+    }
+    .textoFormDebajo {
+        margin: 10px auto;
+    }
+    form button {
+        margin-bottom: 40px;
+    }
     /* FOOTER */
     #listadoFooter {
         font-size: 1em;
