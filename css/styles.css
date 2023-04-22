@@ -297,7 +297,7 @@ form button { /* botón de enviar de el formulario de suscripción */
 }
 
 
-/* medida de pantalla de celular con 730px de ancho */
+/* medida de pantalla de celular con 730px de ancho PARA CELULAR */
 @media screen and (max-width: 730px) {
     /* NAVBAR */
     nav {
