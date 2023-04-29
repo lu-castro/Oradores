@@ -298,7 +298,7 @@ form button { /* botón de enviar de el formulario de suscripción */
 
 
 /* medida de pantalla de celular con 730px de ancho PARA CELULAR */
-@media screen and (max-width: 730px) {
+@media screen and (min-width: 568px) and (max-width: 730px) {
     /* NAVBAR */
     nav {
         height: 15vh;
@@ -345,7 +345,7 @@ form button { /* botón de enviar de el formulario de suscripción */
         margin-left: -100px;
     }
     .orador h4 {
-        display: none !important;
+        display: none;
     }
     .orador .nombreCaja {
         margin-top: auto;
