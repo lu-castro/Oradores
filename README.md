@@ -52,10 +52,10 @@
 ![image](https://github.com/lu-castro/Oradores/assets/71678622/6fa37d7a-366d-442c-b25c-03eb5f8aae1f)   
 <sub>CSS</sub>  
 ![image](https://github.com/lu-castro/Oradores/assets/71678622/bc0bbf81-1d26-4b36-b649-a39c12c28745)    
-**Título y cartas de Oradores **
+**Título y cartas de Oradores **  
 <sub>VISTA</sub>  
 ![image](https://github.com/lu-castro/Oradores/assets/71678622/6173da88-556a-44bb-b122-f7a37e96d199)  
-![image](https://github.com/lu-castro/Oradores/assets/71678622/e508a736-6c30-4689-aa61-6aa446d08fce)  
+![image](https://github.com/lu-castro/Oradores/assets/71678622/e508a736-6c30-4689-aa61-6aa446d08fce)   
 <sub>CSS</sub>   
 ![image](https://github.com/lu-castro/Oradores/assets/71678622/dd5f4307-8e6b-4195-9d76-4ad4e7c0d354)    
 **Imagen Honolulu y el divisor coon información de Buenos Aires **  
@@ -69,7 +69,7 @@
 **Footer**  
 <sub>VISTA</sub>   
 ![image](https://github.com/lu-castro/Oradores/assets/71678622/29211071-99f3-4c57-9655-7a710f012dd9)  
-<sub>CSS</sub>  
+<sub>CSS</sub>    
 ![image](https://github.com/lu-castro/Oradores/assets/71678622/69d60bc5-eb23-4627-8a01-883093ee7f7e)   
 
 
