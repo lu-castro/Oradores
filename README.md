@@ -1,8 +1,7 @@
 # Oradores - CaC
 ## Proyecto Frontend de Codo a Codo - Conferencia de Oradores 
 ### Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para tí. Te esperamos.  
-<sub>HTML</sub>
-1. **Navbar** con logo, título y links de anclaje al abrir la etiqueta header  
+1. **Navbar** con logo, título y links de anclaje al abrir la etiqueta header  <sub>HTML</sub>
 ![image](https://user-images.githubusercontent.com/71678622/236991434-4708ab26-bc07-481c-93c1-e1b841941a1d.png)
 <sub>CSS</sub>   
 ![image](https://user-images.githubusercontent.com/71678622/236991659-d08d3f80-5370-42b2-b13e-ef5130a392dc.png)
