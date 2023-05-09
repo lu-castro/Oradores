@@ -9,7 +9,7 @@
 ![image](https://user-images.githubusercontent.com/71678622/236988107-489d33f6-95a2-40df-833c-092c59da2003.png)
 ![image](https://user-images.githubusercontent.com/71678622/236988198-4c67a4a6-7dbe-4398-b470-32f101ab700e.png)
 4. Sector de **formulario** con un título e input de nombre y apellido sobre un textarea para el mensaje  
-5. **Footer** al final con ítems para más información y contacto
+5. **Footer** al final con ítems para más información y contacto  
 ![image](https://user-images.githubusercontent.com/71678622/236988542-c17b32ea-5374-45d1-b695-56727ab9c57c.png)
 
 
