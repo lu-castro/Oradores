@@ -4,7 +4,7 @@
 <sub>HTML</sub>
 1. **Navbar** con logo, título y links de anclaje al abrir la etiqueta header  
 ![image](https://user-images.githubusercontent.com/71678622/236991434-4708ab26-bc07-481c-93c1-e1b841941a1d.png)
-<sub>CSS</sub> 
+<sub>CSS</sub>   
 ![image](https://user-images.githubusercontent.com/71678622/236991659-d08d3f80-5370-42b2-b13e-ef5130a392dc.png)
 ![image](https://user-images.githubusercontent.com/71678622/236991687-7e0d1a11-757a-476c-81e9-1b4c027f0bfe.png)
 2. **Divisor de la imagen principal y texto** al cerrar la etiqueta header  
