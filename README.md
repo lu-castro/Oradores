@@ -25,9 +25,24 @@
 ![image](https://user-images.githubusercontent.com/71678622/236988021-64d94818-bd84-4bae-b473-d512e75a44e6.png)  
 ![image](https://user-images.githubusercontent.com/71678622/236988107-489d33f6-95a2-40df-833c-092c59da2003.png)  
 4.  Debajo (fuera del main) se encuentra el **divisor de la imagen de Honolulu con un divisor a su derecha**, con la descripción de Bs As y un botón de enviar.  
+<sub>HTML</sub>   
+![image](https://user-images.githubusercontent.com/71678622/236993573-6bbbd3cc-427e-4456-b46e-16c82867a1af.png)  
+<sub>CSS</sub>   
+![image](https://user-images.githubusercontent.com/71678622/236993642-fc1442e2-bc31-4769-b302-2c00d558e57e.png)  
+<sub>VISTA</sub>   
 ![image](https://user-images.githubusercontent.com/71678622/236988198-4c67a4a6-7dbe-4398-b470-32f101ab700e.png)
 5. Sector de **formulario** con un título e input de nombre y apellido sobre un textarea para el mensaje  
-6. **Footer** al final con ítems para más información y contacto  
+<sub>HTML</sub>   
+![image](https://user-images.githubusercontent.com/71678622/236994004-e45e0a91-6367-459f-8f6f-428fecc06cee.png)  
+<sub>CSS</sub>   
+![image](https://user-images.githubusercontent.com/71678622/236993808-60e847d3-e220-4870-b34e-d30f4052065c.png) 
+![image](https://user-images.githubusercontent.com/71678622/236993883-579594a2-0f82-46f5-a692-82608ba8b2ce.png)  
+7. **Footer** al final con ítems para más información y contacto  
+<sub>HTML</sub>   
+![image](https://user-images.githubusercontent.com/71678622/236994041-bbeb214f-7683-4880-9467-9f185eb7da5b.png)  
+<sub>CSS</sub>   
+![image](https://user-images.githubusercontent.com/71678622/236993953-00860a9f-2a6a-4b23-bce8-625d3e0fbcd7.png)  
+<sub>VISTA</sub>   
 ![image](https://user-images.githubusercontent.com/71678622/236988542-c17b32ea-5374-45d1-b695-56727ab9c57c.png)
 
 
