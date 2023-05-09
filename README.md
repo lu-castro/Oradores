@@ -7,7 +7,7 @@
 <sub>CSS</sub>   
 ![image](https://user-images.githubusercontent.com/71678622/236991659-d08d3f80-5370-42b2-b13e-ef5130a392dc.png)
 ![image](https://user-images.githubusercontent.com/71678622/236991687-7e0d1a11-757a-476c-81e9-1b4c027f0bfe.png)  
-2. **Divisor de la imagen principal y texto** al cerrar la etiqueta header 
+2. **Divisor de la imagen principal y texto** al cerrar la etiqueta header   
 <sub>HTML</sub>  
 ![image](https://user-images.githubusercontent.com/71678622/236992531-55e1baa8-8938-4232-bb00-70268981e279.png)  
 <sub>CSS</sub>  
