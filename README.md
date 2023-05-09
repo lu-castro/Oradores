@@ -70,7 +70,8 @@
 <sub>VISTA</sub>  
 ![image](https://github.com/lu-castro/Oradores/assets/71678622/29211071-99f3-4c57-9655-7a710f012dd9)
 <sub>CSS</sub>
-![image](https://github.com/lu-castro/Oradores/assets/71678622/69d60bc5-eb23-4627-8a01-883093ee7f7e)
+![image](https://github.com/lu-castro/Oradores/assets/71678622/69d60bc5-eb23-4627-8a01-883093ee7f7e)  
+
 
 
 
